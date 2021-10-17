@@ -1,0 +1,70 @@
+25-February-2021 13:33:24---Student: daveyash
+25-February-2021 13:33:24----Compile Test: Code different than starter code ---STARTER OK
+25-February-2021 13:33:24----Code compiles with starter NiceMakefile (allowing warnings):PASS
+25-February-2021 13:33:25----Code compiles with starter Makefile (no warnings):PASS
+25-February-2021 13:33:25----Create Test: Empty No name provided (error correctly reported)---PASS
+25-February-2021 13:33:25----Create Test: Empty No name provided FS did not change---EXPECTED_OK
+25-February-2021 13:33:25----Create Test: Duplicate Name (error correctly reported)---PASS
+25-February-2021 13:33:25----Create Test: Duplicate name provided FS did not change---EXPECTED_OK
+25-February-2021 13:33:25----Create Test: Good name but extra args (error correctly reported)---FAIL
+25-February-2021 13:33:25----Create Test: Good name and extra args provided, FS did not change---EXPECTED_NOT_OK
+25-February-2021 13:33:25----Create Test: Name too long (error correctly reported)---PASS
+25-February-2021 13:33:25----Create Test: Name too long, FS did not change---EXPECTED_OK
+25-February-2021 13:33:25----Create Test: Good name extra args (error expected)---FAIL
+25-February-2021 13:33:25----Create Test: Extra args on good name on create, FS did not change---EXPECTED_NOT_OK
+25-February-2021 13:33:25----Create Test: Good name create new files 1---PASS
+25-February-2021 13:33:25----Create Test: Good name create new files 4---PASS
+25-February-2021 13:33:25----Create Test: File system full (error expected) ---FAIL
+25-February-2021 13:33:25----Create Test: Full FS, FS did not change---EXPECTED_OK
+25-February-2021 13:33:25----Create Test: 1 FNode left at front---PASS
+25-February-2021 13:33:25----Create Test: 1 FNode left at middle---PASS
+25-February-2021 13:33:25----Create Test: 1 FNode left at end---PASS
+25-February-2021 13:33:25----Read Test: Empty No name provided (error correctly reported)---PASS
+25-February-2021 13:33:25----Read Test: Empty No name provided FS did not change---EXPECTED_OK
+25-February-2021 13:33:25----Read Test: Name provided, missing params (error correctly reported)---PASS
+25-February-2021 13:33:26----Read Test: Name provided, missing params, FS did not change---EXPECTED_OK
+25-February-2021 13:33:26----Read Test: Good name but wrong type args (error correctly reported)---PASS
+25-February-2021 13:33:26----Read Test: Good name but wrong type args, FS did not change---EXPECTED_OK
+25-February-2021 13:33:26----Read Test: Name too long (error correctly reported)---PASS
+25-February-2021 13:33:26----Read Test: Name too long, FS did not change---EXPECTED_OK
+25-February-2021 13:33:26----Read Test: Good name zero content---PASS
+25-February-2021 13:33:26----Read Test: Extra args on good name on read, FS did not change---EXPECTED_OK
+25-February-2021 13:33:26----Read Test: Good name read short string in files 1---PASS
+25-February-2021 13:33:26----Read Test: Good name read across multiple blocks 1---FAIL
+25-February-2021 13:33:26----Read Test: Good name bad offset (error expected)---PASS
+25-February-2021 13:33:26----Read Test: Good name bad size (error expected)---FAIL
+25-February-2021 13:33:26----Read Test: Good name bad size negative (error expected)---PASS
+25-February-2021 13:33:26----Write Test: Empty No name provided (error correctly reported)---PASS
+25-February-2021 13:33:26----Write Test: Empty No name provided FS did not change---EXPECTED_OK
+25-February-2021 13:33:26----Write Test: Existing File Name---FAIL
+25-February-2021 13:33:26----Write Test: Write was correctly managed---FAIL
+25-February-2021 13:33:26----Write Test: Existing File Name write extend (extra bytes in input)---FAIL
+25-February-2021 13:33:26----Write Test: Write was correctly managed here---FAIL
+25-February-2021 13:33:26----Write Test: Existing File Name write but not enough input.---PASS
+25-February-2021 13:33:26----Write Test:  Existing File Name write but not enough input (no change to FS)---EXPECTED_OK
+25-February-2021 13:33:26----Write Test: Full FS (expected error)---PASS
+25-February-2021 13:33:26----Write Test: FS full (no change to FS)---EXPECTED_OK
+25-February-2021 13:33:26----Write Test: Full FS write bytes in middle---FAIL
+25-February-2021 13:33:26----Write Test: Write was correctly managed here---FAIL
+25-February-2021 13:33:26----Write Test: Single new line in input---FAIL
+25-February-2021 13:33:26----Write Test: Two new line in input---FAIL
+25-February-2021 13:33:26----Write Test: Multiple new line in input---FAIL
+25-February-2021 13:33:26----Write Test: Full Run-through Create first file---PASS
+25-February-2021 13:33:26----Write Test: Full Run-through Create second file---PASS
+25-February-2021 13:33:26----Write Test: Full Run-through Create third file---PASS
+25-February-2021 13:33:26----Write Test: Full Run-through Write and read with second file before first file---FAIL
+25-February-2021 13:33:26----Write Test: Full Run-through Write and read with first file over multiple blocks---FAIL
+25-February-2021 13:33:26----Write Test: Full Run-through Write and read with second file over multiple blocks---FAIL
+25-February-2021 13:33:26----Write Test: Full Run-through check that first file is not corrupted---FAIL
+25-February-2021 13:33:26----Write Test: Full Run-through delete f2---PASS
+25-February-2021 13:33:26----Delete Test: No name provided (error correctly reported)---PASS
+25-February-2021 13:33:26----Delete Test: No name provided FS did not change---EXPECTED_OK
+25-February-2021 13:33:26----Delete Test: Delete empty file---PASS
+25-February-2021 13:33:26----Delete Test: Delete non-empty file---FAIL (edit distance)
+25-February-2021 13:33:26----Delete Test: Delete multiple files in a row---FAIL (edit distance f1)
+25-February-2021 13:33:27----Other: Code compiles with starter Makefile For Alternate FS:PASS
+25-February-2021 13:33:27----Other: Reads multiple files correctly for Alternate FS PASS
+25-February-2021 13:33:27----Other: Delete f2, create ff2 PASS
+25-February-2021 13:33:27----Other: Read f3, read f1 FAIL
+25-February-2021 13:33:27--- SCORE 31.3/52.5
+25-February-2021 13:33:27 FINISHED
